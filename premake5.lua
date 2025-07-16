@@ -359,8 +359,3 @@ project "Luau.Web"
 
 	filter "not system:emscripten"
 	kind "None"
-
-project "*"
-	--location (_OPTIONS["luau-path"] .. "/build/%{cfg.shortname}")
-
-
